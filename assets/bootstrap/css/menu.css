@@ -1,0 +1,144 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+}
+body{
+
+}
+
+#main-menu li ul  {
+    list-style: none;
+    border-left: 1px solid #9d9d9d;
+    border-right: 1px solid #9d9d9d;
+    float: none;
+    width: 180px;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    top:43px;
+    display: none;
+    font:10px Persian;
+    border-radius: 7px;
+}
+#main-menu li {
+    float: right;
+    border-left: 1px solid #fff;
+    position: relative;
+    background-color: #9d9d9d;
+    border-radius: 7px;
+}
+#main-menu li:hover ul {
+    display: block;
+    float: none;
+    background: #9d9d9d;
+}
+
+#main-menu li a  {
+    text-decoration: none;
+    text-align: right;
+    float:none;
+    padding: 1px 43px;
+    line-height: 40px;
+    background-color: #9e9e9e;
+    border-radius: 7px;
+}
+
+#main-menu li a:hover  {
+    color: #fff8f8;
+    background-color: #9e9e9e;
+}
+#main-menu ul li {
+    border-left: none;
+    border-bottom: 1px solid #aaa;
+    float: right;
+
+}
+#main-menu ul li a{
+    float: none;
+    display: block;
+}
+
+#slide {
+    Width: 100%;
+    position: relative;
+    margin: 20px auto;
+    box-shadow:0 0 7px #333333 ;
+}
+
+#slide img {
+    width:765px;
+    height: 350px;
+    border-radius: 15px;
+    display: none;
+}
+
+#slide img:first-child {
+    display: inline;
+}
+.btn-blue {
+    background-color: #48f;
+    color: #fff;
+    padding: 5px 15px;
+    cursor: pointer;
+    border: 1px solid #59f;
+    font-size: 7pt;
+    border-radius: 2px;
+    text-decoration: none ;
+    font-weight: bold;
+}
+
+.btn-blue:hover {
+    background-color: #6af;
+    color: #fff;
+    border: 1px solid #59f;
+    box-shadow: 0 1px 1px #ddd;
+}
+/*
+.slide{
+    display: none;
+}
+
+.slide.active{
+    display: block;
+}
+
+.text{
+    color: #000000;
+    position: absolute;
+    botom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.next , .prev{
+    color: #5e5e5e;
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.prev{
+    left: 5px;
+}
+.next{
+    right: 5px;
+}
+
+#dots{
+    text-align: center;
+}
+
+.dot{
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.dot.active{
+    background-color: #f92672;
+}

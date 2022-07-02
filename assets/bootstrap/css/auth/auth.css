@@ -1,0 +1,55 @@
+body {
+    padding-top: 7%;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding: 30px 30px 10px;
+    border-radius: 5px;
+    border: solid 1px rgb(198, 205, 210);
+    box-shadow: 0 0 5px 0 rgb(198, 205, 210);
+    position: relative;
+}
+
+main .loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background: rgb(255, 255, 255) url(../../img/loading100.gif) no-repeat center;
+    z-index: 10;
+    transition: 5s;
+}
+
+main header h1 {
+    font-family: "BYekan", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    border-bottom: solid 1px rgb(138, 155, 168);
+    padding-bottom: 7px;
+    color: rgb(66, 79, 89);
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+main header p {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    color: rgb(138, 155, 168);
+    padding: 0;
+}
+
+main .form-group {
+    margin-top: 15px;
+}
+
+main .form-control {
+    margin-bottom: 10px;
+}
+
+main footer {
+    border-top: solid 1px rgb(138, 155, 168);
+    padding-top: 5px;
+}

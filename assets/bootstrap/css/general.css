@@ -1,0 +1,39 @@
+/** Fonts **/
+
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot');
+    src: url('../fonts/BYekan.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BYekan.woff') format('woff'),
+    url('../fonts/BYekan.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Iransans';
+    src: url('../fonts/Iransans.eot');
+    src: url('../fonts/Iransans.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Iransans.woff') format('woff'),
+    url('../fonts/Iransans.woff2') format('woff2'),
+    url('../fonts/Iransans.ttf') format('truetype');
+}
+
+/** Tags **/
+
+body {
+    font-family: "Iransans", Tahoma, sans-serif;
+    font-size: 12px;
+    direction: rtl;
+    text-align: right;
+    min-width: 320px;
+}
+
+a {
+    color: rgb(190, 84, 84);
+    transition: .3s;
+    text-decoration: none;
+}
+
+a:hover {
+}
+
+

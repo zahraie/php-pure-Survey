@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+.navigator {
+    border-top: solid 2px rgb(255, 50, 50);
+    border-bottom: solid 1px rgb(221, 221, 221);
+    box-shadow: rgba(200, 200, 200, 0.2) 0 3px 2px -2px;
+    overflow: visible;
+    margin-bottom: 0px;
+    background: #FFFFFF;
+    padding: 0px 60px;
+    direction: rtl;
+}
+ul li .navigator {
+    list-style: none;
+}
+
+a.logo{
+    font:16px Persian;
+    position: relative;
+    top: 12px;
+}
+a.header{
+    font: 14px Persian;
+    position: relative;
+    top: 0px;
+    display: inline;
+    color: rgb(100,100,100);
+}
+.navigator hr {
+    margin: 10px 15px 0;
+}
+
+.navigator .brand {
+    padding-top: 10px;
+}
+
+.navigator .brand span {
+    font-family: "BYekan", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 7px;
+}
+
+.navigator .search {
+    padding-top: 10px;
+}
+
+.navigator .search .form-group {
+    position: relative;
+}
+
+.navigator .search span {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    color: rgb(220, 220, 220);
+}
+
+.navigator .buttons {
+    position: relative;
+    overflow: visible;
+    height: 54px;
+}
+
+.navigator .buttons .button {
+    padding: 15px 10px;
+    overflow: auto;
+    display: block;
+    float: right;
+    margin-bottom: -6px;
+}
+
+.navigator .buttons .button:hover {
+    background-color: rgb(246, 246, 246);
+}
+
+.navigator .buttons .button img {
+    margin-left: 2px;
+}
+
+.navigator .buttons .button > span {
+    color: rgb(153, 153, 153);
+}
+
+.navigator .buttons .button:first-of-type > span {
+    position: relative;
+    top: 2px;
+}
+
+.navigator .buttons .sign {
+    float: left;
+}
+
+.navigator .buttons .up span {
+    color: rgba(6, 3, 6, 0.62);
+}
+
+.navigator .buttons .button ul {
+    position: absolute;
+    display: none;
+    overflow: auto;
+    min-width: 170px;
+    max-width: 300px;
+    padding-top: 20px;
+    top: 45px;
+    left: 0;
+    z-index: 99;
+}
+
+.navigator .buttons .button:hover ul {
+    display: block;
+}
+
+.navigator .buttons .button ul:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid rgb(221, 221, 221);
+    top: 15px;
+    left: 40%;
+}
+
+.navigator .buttons .button ul:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    top: 16px;
+    left: 40%;
+}
+
+.navigator .buttons .button ul li {
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+.navigator .buttons .button ul li:hover {
+    background-color: rgb(246, 246, 246);
+}
+
+.navigator .buttons .button ul li a {
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.navigator .buttons .notification {
+    float: left;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.navigator .buttons .notification .count {
+    position: relative;
+    bottom: 12px;
+    margin-bottom: -14px;
+    left: 5px;
+    margin-left: -5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(222, 49, 49, 0.5);
+    border-radius: 5px;
+    border: solid 1px rgba(222, 49, 49, 0.8);
+    text-align: center;
+    width: 22px;
+    padding-top: 2px;
+    padding-right: 1px;
+    text-shadow: -1px 1px rgb(222, 49, 49);
+}
+
+.navigator .buttons .notification {
+    float: left;
+    overflow: visible;
+}
+
+.navigator .buttons .notification img {
+    border-radius: 50%;
+    margin: -4px 0 -4px 4px;
+}
+
+.navigator .buttons .notification ul li a {
+    padding-bottom: 20px;
+}
+
+.navigator .buttons .notification ul li a span {
+    color: rgb(153, 153, 153);
+}
+
+.navigator .buttons .notification ul li a .glyphicon {
+    color: rgba(222, 49, 49, 0.7);
+}
+
+.navigator .buttons .notification ul li a .time {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-size: 10px;
+    color: rgb(200, 200, 200);
+}
+
+.navigator .buttons .user {
+    float: left;
+    overflow: visible;
+    cursor: pointer;
+}
+
+.navigator .buttons .user img {
+    border-radius: 50%;
+    margin: -4px 0 -4px 4px;
+}
+
+.navigator .buttons .user ul li a .name {
+    color: rgb(30, 30, 30);
+    margin-bottom: 3px;
+}
+
+.navigator .buttons .user ul li a .email {
+    color: rgb(153, 153, 153);
+}
+
+.navigator .buttons .user ul li a .badge {
+    margin-top: -1px;
+}
+
+.navigator .buttons .user ul li a .glyphicon {
+    position: relative;
+    top: 3px;
+}
+
+.footer {
+    border-top: solid 1px rgb(221, 221, 221);
+    box-shadow: rgba(200, 200, 200, 0.2) 0 -3px 2px -2px;
+    padding: 15px 0;
+    margin-top: 50px;
+    background:rgb(255,255,255) ;
+}
+
+.footer span {
+    color: rgb(153, 153, 153);
+    margin: 0 5px;
+}
+

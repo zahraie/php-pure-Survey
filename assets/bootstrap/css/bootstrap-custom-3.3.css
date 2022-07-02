@@ -1,0 +1,47 @@
+/** Hack **/
+
+hr {
+    margin: 10px 0;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+.form-control {
+    font-family: Tahoma, serif;
+    font-size: 12px;
+}
+
+.list-group {
+    padding-right: 0;
+}
+
+.list-group-item .badge {
+    float: left;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(222, 49, 49, 0.7);
+}
+
+/** New **/
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .center-sm {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .center-xs {
+        text-align: center;
+    }
+}

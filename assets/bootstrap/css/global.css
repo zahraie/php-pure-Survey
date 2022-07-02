@@ -1,0 +1,217 @@
+/** Meta **/
+
+
+
+@font-face {
+    font-family: 'BYekan';
+    font-weight: normal;
+    src: url('../fonts/BYekan.eot');
+    src: url('../fonts/BYekan.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BYekan.woff') format('woff'),
+    url('../fonts/BYekan.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot');
+    src: url('../fonts/BYekan.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BYekan.woff') format('woff'),
+    url('../fonts/BYekan.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Persian';
+    src: url('../fonts/Iransans.eot');
+    src: url('../fonts/Iransans.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Iransans.woff') format('woff'),
+    url('../fonts/Iransans.woff2') format('woff2'),
+    url('../fonts/Iransans.ttf') format('truetype');
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242, 242, 242);
+    direction: ltr;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+main{
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+
+}
+.content-home{
+    display: block;
+    padding: 1px;
+    box-shadow: rgba(200, 200, 200, 0.2) 0 3px 2px -2px;
+    overflow: visible;
+    background: #0f74a8;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 5px;
+}
+.product-box{
+    padding : 10px 4px;
+    margin:10px 0px ;
+    border:1px solid #c0c0c0;
+    border-radius: 3px;
+}
+h1.head{
+    margin-top: 0px;
+    font: 20px Persian ;
+}
+h2.title{
+    margin: 0px;
+    padding:3px 7px;
+    font: 16px Persian ;
+    color: #19AAD8;
+}
+span.desc{
+    font: 13px BYekan;
+    padding:0px 10px;
+}
+a {
+    color: rgb(190, 84, 84);
+    display: inline-block;
+    border-bottom-width: 5px;
+    font-size: 14px;
+}
+
+a:hover {
+    color: rgb(85, 145, 190);
+    text-decoration: none;
+}
+
+/** Bootstrap Hacks **/
+
+.btn, .form-control, .input-group-addon {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    direction: rtl;
+}
+
+.input-group {
+    direction: rtl;
+    margin-bottom: 10px;
+}
+
+.input-group .input-group-addon {
+    border-left: solid 1px #ccc;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}
+
+.input-group .form-control {
+    margin: 0 !important;
+    border-radius: 0 4px 4px 0 !important;
+}
+
+.input-group .hover:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+.tooltip-inner {
+    background-color: rgb(138, 155, 168);
+    font-family: Tahoma, Geneva, sans-serif;
+    padding-bottom: 5px;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: rgb(138, 155, 168);
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: rgb(138, 155, 168);
+}
+
+.modal .modal-header {
+    background-color: rgb(245, 245, 245);
+    padding: 5px 15px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.modal .close {
+    margin-top: 4px;
+    float: left;
+}
+
+.modal .modal-title {
+    font-family: "BYekan", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgb(66, 79, 89);
+}
+
+.modal .modal-content {
+    border-radius: 5px;
+}
+
+.modal .modal-footer {
+    border-top: none;
+    padding: 5px 15px 15px;
+    text-align: center;
+}
+
+.modal .btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/** Elements **/
+
+.btn-wide {
+    width: 100%;
+}
+
+.btn-big {
+    font-family: "BYekan", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.btn-bg {
+    background-color: rgb(138, 155, 168);
+    color: rgb(255, 255, 255);
+}
+
+.btn-bg:hover {
+    background-color: rgb(154, 171, 184);
+    color: rgb(255, 255, 255);
+}
+
+.text-bg {
+    color: rgb(138, 155, 168);
+}
+
+.text-bg a {
+    color: rgb(85, 145, 190);
+    text-decoration: none;
+}
+
+.text-bg a:hover {
+    color: rgb(85, 145, 190);
+    text-decoration: underline;
+}
+
+/** Manipulators **/
+
+.no-padding {
+    padding: 0;
+}
+
+.height-15 {
+    clear: both;
+    height: 15px;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.rtl {
+    direction: rtl;
+
+}
